@@ -2,6 +2,7 @@ body {
    font-family: "Roboto", sans-serif;
    color: #434455;
    background-color: #FFFFFF;
+   position: absolute;
 }
 
 h1,
@@ -420,7 +421,9 @@ position: relative;
    background: #2e2f42;
    padding-top: 100px;
    padding-bottom: 100px;
-position: relative;
+position: absolute;
+width: 1440px;
+   height: 312px;
 
 }
 
@@ -442,8 +445,14 @@ position: relative;
 }
 
 .fot-icon {
-   text-align: left;
- 
+position: relative;
+   display: inline-block;
+   top: -115px;
+right: 692px;
+bottom: 132px;
+left: 540px;
+max-width: 208px;
+
 }
 
 
@@ -452,11 +461,13 @@ line-height: 1.5;
    color: #F4F4FD;
    letter-spacing: 0.02em;
    max-width: 264px;
+   max-height: 80px;
 }
 
 .footer-wrapper{
 display: flex;
    align-items: baseline;
+   text-align: center;
 }
 
 .logo-wrapper {
@@ -476,7 +487,12 @@ margin-right: 120px;
 
 .fot-icon-list {
    display: flex;
+   display: flex;
+      justify-content: center;
+    width: 208px;
+    
       gap: 16px;
+     
    
 }
 
