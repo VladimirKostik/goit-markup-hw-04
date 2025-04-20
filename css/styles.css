@@ -445,3 +445,36 @@ position: relative;
    color: #f4f4fd;
    max-width: 264px;
 }
+
+.fot-icon-text{
+   font-family: "Roboto", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.02em;
+      color: #fff;
+      margin-bottom: 16px;}
+
+.fot-icon {
+
+}
+
+.fot-icon-list {
+   display: flex;
+      gap: 16px;
+      justify-content: center;
+}
+
+.fot-icons-list-item{
+   width: 40px;
+      height: 40px;
+}
+
+.fot-icons-list-link:hover,
+.fot-icons-list-link:focus {
+   background-color: #31D0AA;
+}
+
+.fot-icon-page {
+   fill: #f4f4fd;
+}
