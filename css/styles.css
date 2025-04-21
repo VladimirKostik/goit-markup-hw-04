@@ -474,12 +474,6 @@ width: 1440px;
 .fot-icon {
 position: relative;
    display: inline-block;
-   top: 0px;
-right: 692px;
-bottom: 132px;
-left: 120px;
-max-width: 208px;
-
 }
 
 
@@ -503,7 +497,6 @@ display: flex;
 
 .logo-wrapper {
 margin-right: 120px;
-
 }
 
 .fot-icon-text{
@@ -550,6 +543,4 @@ margin-right: 120px;
 
 .fot-icon-page {
    fill: #f4f4fd;
-   width: 24;
-   height: 24;
 }
