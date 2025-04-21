@@ -107,19 +107,20 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-li.header-section-list-item .mod>a.navigaion-help:first-child {
-   position: relative;
-      color: #404bbf;
+.header-section-list-item .mod {
+   color: #404BBF;
+      position: relative;
 }
 
-.header-section-list-item .mod .navigaion-help::after{
+.header-section-list-item .mod::after{
    content: "";
-      width: 100%;
       position: absolute;
-      left: 0;
       bottom: -1px;
+      left: 0;
+      right: 0;
+      width: 48px;
       height: 4px;
-      background-color: #404bbf;
+      background-color: #404BBF;
       border-radius: 2px;
 }
 
