@@ -107,12 +107,12 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-section-list-item .mod {
+.navigaion-help .mod{
    color: #404BBF;
-      position: relative;
+   position: relative;
 }
 
-.header-section-list-item .mod::after{
+.navigaion-help .mod::after{
    content: "";
       position: absolute;
       bottom: -1px;
